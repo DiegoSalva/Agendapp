@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.srxlpx.agendapp.ConfirmarDatos"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvTituloTarjeta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_Tarjeta"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/titulo_confirmar_datos"/>
+
+            <TextView
+                android:id="@+id/tvNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margen_superior"
+                android:text="@string/form_nombre"
+                android:layout_below="@id/tvTituloTarjeta"
+                android:textSize="@dimen/presentar_datos"/>
+
+            <TextView
+                android:id="@+id/tvFechaNacimiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/form_fecha_nacimiento"
+                android:layout_below="@id/tvNombre"
+                android:textSize="@dimen/presentar_datos"/>
+
+            <TextView
+                android:id="@+id/tvTelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/form_telefono"
+                android:layout_below="@id/tvFechaNacimiento"
+                android:textSize="@dimen/presentar_datos"/>
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/form_email"
+                android:layout_below="@id/tvTelefono"
+                android:textSize="@dimen/presentar_datos"/>
+
+            <TextView
+                android:id="@+id/tvDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/form_descrpion_contacto"
+                android:layout_below="@id/tvEmail"
+                android:textSize="@dimen/presentar_datos"/>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margen_superior"
+        android:text="@string/boton_editar_datos"
+        android:theme="@style/MiBotonRaised"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

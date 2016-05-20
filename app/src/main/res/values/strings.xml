@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Agendapp</string>
+    <string name="form_nombre">Nombre completo:</string>
+    <string name="form_fecha_nacimiento">Fecha de Nacimiento:</string>
+    <string name="form_telefono">Telefono:</string>
+    <string name="form_email">Email</string>
+    <string name="form_descrpion_contacto">Descripción del Contacto:</string>
+    <string name="boton_siguiente">Siguiente</string>
+
+    //Confirmar Datos
+
+    <string name="titulo_Tarjeta">Confirmar Datos</string>
+    <string name="boton_editar_datos">Editar Datos</string>
+</resources>
